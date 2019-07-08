@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" href="style.css">
+    <title>My To-do List</title>
+</head>
+
+<body>
+    <div class="container">
+        <h1> My To-do List</h1>
+        <div class="main-content">
+            <div class="input">
+                 <input type="text" class="in" onkeypress="Enter(event)" id="input"><input type="button" value="Save" class="btn" onclick="Save(event)">
+            </div>
+            <ul class="list" id="list">
+                <li class="list-items">Bathe<input type="checkbox" class="check" onclick="Del(event)"> </li>
+                <li class="list-items">Bathe<input type="checkbox" class="check" onclick="Del(event)">  </li>
+                 <li class="list-items">Click<input type="checkbox" class="check" onclick="Del(event)">  </li>
+                <li class="list-items">Bathe<input type="checkbox" class="check" onclick="Del(event)">  </li>
+            </ul>
+        </div>
+    </div>
+    <script src="action.js"></script>
+</body>
+
+</html>
